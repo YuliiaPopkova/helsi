@@ -1,0 +1,25 @@
+header{
+    background-color: rgba(196, 224, 244, 0.652);
+    color:rgb(0, 0, 0) ;
+    padding: 15px;}
+    .logo{
+        width: 70px;
+        padding-left: 10px;
+    }
+    .logo img {
+        width: 100%;
+        
+       
+    }
+    h1{ display: inline;
+        justify-content: space-between;
+        align-items: center;}
+    main {background-color: rgba(247, 233, 247, 0.423);
+        color:rgb(0, 0, 0) ;
+        padding: 15px;
+    
+    }
+    footer {background-color: rgba(196, 224, 244, 0.652);
+        color:rgb(0, 0, 0) ;
+        padding: 15px;
+    }

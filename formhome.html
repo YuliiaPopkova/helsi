@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formhome</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+         html{scroll-behavior: smooth;
+        font-family: 'Open Sans', sans-serif;}
+        body{margin: 0; }    
+    </style>
+     <link rel="stylesheet" href="./home.css">
+</head>
+<body>
+    <img
+                src="./img/qve.png"
+                width="500"   
+                class="icon"             
+              />
+    <h1>Надіслати звернення в службу підтримки Helsi.me</h1>
+    <form>
+        <fieldset>
+        <legend> Ваше ім'я та прізвище*</legend>
+       <input type="text" placeholder="Вкажіть ваше ім'я та прізвище " required/>
+    </fieldset>
+    <fieldset>
+        <legend> Контакти*</legend>
+       <input type="tel" placeholder="Вкажіть ваш телефон " pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required/>
+       <input type="email" placeholder="Вкажіть ваш Email " required/>
+    </fieldset>
+    <fieldset>
+        <legend> Тема*</legend>
+        <select name="pets" required>
+            <option value="">--Оберіть тему звернення--</option>
+            <option value="Вакцинація">Вакцинація</option>
+            <option value="Сімейний лікар">Сімейний лікар</option>
+            <option value="Декларація">Декларація</option>
+            <option value="Вхід в систему">Вхід в систему</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <legend> Вкажіть ваше питання*</legend>
+        <textarea name="msg" placeholder="Текст вашого звернення" required></textarea>
+    </fieldset>
+    <hr/>
+<input type="submit" value="Надіслати"  />
+    </form>
+    
+</body>
+</html>
