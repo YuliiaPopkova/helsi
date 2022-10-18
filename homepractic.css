@@ -1,5 +1,5 @@
 header{
-    background: linear-gradient(70deg, rgba(3, 3, 52, 0.767), pink);
+    background: white;
     color:rgb(0, 0, 0) ;
     padding: 15px;
 }
@@ -9,6 +9,7 @@ a{ color: rgb(3, 3, 14);
 }
 a:hover {color:rgb(13, 13, 193);
 text-decoration: none;}
+body{font-size: 18px;}
 nav{
     display: flex;
     justify-content: space-between;
@@ -42,12 +43,35 @@ h1{
 .menu li:First-child{
     margin-left: 0;
 }
-main { background: linear-gradient(to right, rgba(3, 3, 122, 0.526), rgba(184, 14, 45, 0.367));
+main { background:white;
     color:rgb(0, 0, 0) ;
     padding: 15px;
 
 }
-footer {background: linear-gradient(70deg, rgba(3, 3, 52, 0.767), pink);
+footer {background: white;
     color:rgb(0, 0, 0) ;
     padding: 15px;
+    text-align: center;
+}
+.flex{display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  
+}
+
+.left,
+.right {margin: 0 10px;}
+.flex span{display: block;}
+
+.helsi, .company,.patient, .doctor, .medical_institutions, .company{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    
+    padding: 15px;
+
+margin: 20px;
+background-image: linear-gradient(to right top, #b3d4fc, #ccd3f9, #dfd3f3, #ecd5ec, #f3d9e6);
+box-shadow: -10px -10px 20px 0px #00000078;
+border-radius: 15px;
 }

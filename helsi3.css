@@ -1,5 +1,5 @@
 header{
-    background: linear-gradient(70deg, rgba(3, 3, 52, 0.767), pink);
+    background:  linear-gradient(98.66deg,#d6e9ff 2.52%,#ffddf7);
     color:rgb(0, 0, 0) ;
     padding: 15px;}
     .logo{
@@ -14,12 +14,12 @@ header{
     h1{ display: inline;
         justify-content: space-between;
         align-items: center;}
-    main {background: linear-gradient(to right, rgba(3, 3, 122, 0.526), rgba(184, 14, 45, 0.367));
+    main {background: white;
         color:rgb(0, 0, 0) ;
         padding: 15px;
     
     }
-    footer {background: linear-gradient(70deg, rgba(3, 3, 52, 0.767), pink);
+    footer {background: linear-gradient(98.66deg,#d6e9ff 2.52%,#ffddf7);
         color:rgb(0, 0, 0) ;
         padding: 15px;
     }
