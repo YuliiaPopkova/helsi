@@ -2,7 +2,9 @@ header{
     background: white;
     color:rgb(0, 0, 0) ;
     padding: 15px;
+    background-image: linear-gradient(to right top, #b3d4fc, #ccd3f9, #dfd3f3, #ecd5ec, #f3d9e6);
 }
+   
 a{ color: rgb(3, 3, 14);
     text-decoration: none;
 
@@ -14,9 +16,6 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-h1{
-    
 }
 .container {
     max-width: 1200px;
@@ -39,7 +38,8 @@ h1{
 .menu{list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;}
+    display: flex;
+font-weight: bold;}
     .menu li{margin: 0 10px;}
 .menu li:last-child{
     margin-right: 0;
@@ -52,7 +52,7 @@ main { background:white;
     padding: 15px;
 
 }
-footer {background: white;
+footer {background-image: linear-gradient(to right top, #b3d4fc, #ccd3f9, #dfd3f3, #ecd5ec, #f3d9e6);
     color:rgb(0, 0, 0) ;
     padding: 15px;
     text-align: center;
@@ -68,15 +68,25 @@ footer {background: white;
 .right {margin: 0 10px;}
 .flex span{display: block;}
 
-.helsi, .company,.patient, .doctor, .medical_institutions, .company{
+.helsi, .company,.patient, .doctor, .medical_institutions{
     background-color: white;
     color: rgb(0, 0, 0);
     
     padding: 15px;
 
 margin: 20px;
-background-image: linear-gradient(to right top, #b3d4fc, #ccd3f9, #dfd3f3, #ecd5ec, #f3d9e6);
-box-shadow: -10px -10px 20px 0px #00000078;
+
+
 border-radius: 15px;
+display: flex;
+align-items: center;
+align-content: center;
+justify-content: space-around;
+background: rgb(252,238,251);
+background: linear-gradient(90deg, rgba(252,238,251,1) 0%, rgba(229,230,249,0.5245448521205357) 39%);
 }
-.helsipro {cd}
+.img-block{width: 170px;}
+.text-block{
+    width: 600px;
+}
+.img-block img {width: 100%; }
